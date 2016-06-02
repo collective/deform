@@ -1,6 +1,8 @@
 Next release
 ------------
 
+- Selectively add setuptools_git as a setup_requires #273.
+
 - Updated bootstrap to 3.3.6.
 
 - Fix dateparts.pt and datetimeinput.pt for changes in bootstrap v3.0.3.

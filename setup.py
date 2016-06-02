@@ -51,7 +51,7 @@ docs_extras = [
     ]
 
 setupkw = dict(
-    name='deform',
+    name='deform2000',
     version='2.0a3.dev0',
     description='Another form generation library',
     long_description=README + '\n\n' + CHANGES,
@@ -83,6 +83,10 @@ setupkw = dict(
         'docs': docs_extras,
         },
     )
+
+# if a git repo then add setuptools-git as a setup_requires
+if os.path.isdir(os.path.join(here, '.git')):
+    setupkw['setup_requires'] = ['setuptools_git']
 
 # to update catalogs, use babel and lingua !
 try:
