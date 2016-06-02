@@ -1,4 +1,4 @@
-2.0.1 (unreleased)
+2.0.1 (2016-06-02)
 ------------------
 
 - First register wasn't working.
