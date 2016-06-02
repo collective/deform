@@ -52,7 +52,7 @@ docs_extras = [
 
 setupkw = dict(
     name='deform2000',
-    version='2.0a3.dev0',
+    version='2.0',
     description='Another form generation library',
     long_description=README + '\n\n' + CHANGES,
     classifiers=[

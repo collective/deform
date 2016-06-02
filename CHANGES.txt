@@ -28,7 +28,7 @@ Next release
 - Ensured that ``None`` would not show up as a css class name in rendered
   template output.  See https://github.com/Pylons/deform/pull/191
 
-- CSS class names normalized.  Instead of camelCase names (e.g. ``deformSeq``),
+2.0 (2016-06-02)
   we now use dashed-names (e.g. ``deform-seq``).  A full list of changes is
   below::
 
