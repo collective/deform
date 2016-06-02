@@ -1,5 +1,13 @@
-Next release
-------------
+2.0.1 (unreleased)
+------------------
+
+- First register wasn't working.
+
+- Adding comment about this fork.
+
+
+2.0 (2016-06-02)
+----------------
 
 - Selectively add setuptools_git as a setup_requires #273.
 
@@ -28,13 +36,6 @@ Next release
 - Ensured that ``None`` would not show up as a css class name in rendered
   template output.  See https://github.com/Pylons/deform/pull/191
 
-2.0.0 (unreleased)
-                  
-
-- Nothing changed yet.
-
-
-2.0 (2016-06-02)
   we now use dashed-names (e.g. ``deform-seq``).  A full list of changes is
   below::
 
