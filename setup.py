@@ -29,11 +29,11 @@ except:
     CHANGES = ''
 
 requires = [
-    'Chameleon>=2.5.1', # Markup class
-    'colander>=1.0a1', # cstruct_children/appstruct_children, Set
+    'Chameleon>=2.5.1',  # Markup class
+    'colander>=1.0a1',  # cstruct_children/appstruct_children, Set
     'iso8601',
-    'peppercorn>=0.3', # rename operation type
-    'translationstring>=1.0', # add format mapping with %
+    'peppercorn>=0.3',  # rename operation type
+    'translationstring>=1.0',  # add format mapping with %
     'zope.deprecation',
     ]
 
@@ -42,6 +42,15 @@ testing_extras = [
     'coverage',
     'beautifulsoup4'
     ]
+
+# Needed to run deformdemo tests
+functional_testing_extra = [
+    'selenium',
+    'pyramid',
+    'pygments',
+    'waitress',
+    'lingua'
+]
 
 docs_extras = [
     'Sphinx >= 1.3.4',
@@ -81,6 +90,7 @@ setupkw = dict(
     extras_require={
         'testing': testing_extras,
         'docs': docs_extras,
+        'functional': functional_testing_extra,
         },
     )
 
