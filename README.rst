@@ -4,12 +4,12 @@ Deform
 .. image:: https://travis-ci.org/collective/deform.png?branch=master
         :target: https://travis-ci.org/collective/deform
 
-.. image:: https://readthedocs.org/projects/deform/badge/?version=master
-        :target: http://docs.pylonsproject.org/projects/deform/en/master/
+.. image:: https://readthedocs.org/projects/deform2000/badge/?version=master
+        :target: http://deform2000.readthedocs.io/en/master/
         :alt: Master Documentation Status
 
-.. image:: https://readthedocs.org/projects/deform/badge/?version=latest
-        :target: http://docs.pylonsproject.org/projects/deform/en/latest/
+.. image:: https://readthedocs.org/projects/deform2000/badge/?version=latest
+        :target: http://deform2000.readthedocs.io/en/latest/
         :alt: Latest Documentation Status
 
 Deform is a Python HTML form library. You can easily create forms for your application. Deform can do complex forms with JavaScript integration, like nested forms where you need add and remove subform items. Date and time picking widgets and other rich widgets are supported out of the box.
